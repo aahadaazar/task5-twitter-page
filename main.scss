@@ -10,9 +10,9 @@ body{
 
 .fly{
     position: fixed;
-    right: 25px;
-    width: 100px;
-    height: 100px;
+    right: 4.8%;
+    width: 65px;
+    height: 65px;
     background-color:rgba(180, 179, 179, 0.479);
     display: flex;
     justify-content: center;
@@ -46,12 +46,12 @@ body{
     width: auto;
     height: auto;
     margin:10px;
-    
+    margin-left:20px;
+    margin-right: 20px;
 
     img{
         width:28px;
-        height: 38px;   
-        margin-right: 20px;
+        height: 38px;    
 
         &:nth-child(2){
         width:30px;
@@ -64,8 +64,7 @@ body{
             width:20px;
             height: 25px;
             padding-top:7px;
-            margin-left: 2px;
-            margin-right: 10px;
+            margin-left: 28px;
             }
         }
     }
@@ -123,12 +122,12 @@ body{
 
 
         .buttons{
-            margin-left: 133px;
+            margin-left: 45px;
             display: -webkit-flex;
             display: flex;
             justify-content: space-evenly;
             margin-top:15px;
-            width:950px;
+            width:900px;
 
             button{
                 background: none;
@@ -253,7 +252,7 @@ body{
 .maincontent{
     width: 900px;
     height: auto;
-    margin-left: 500px;
+    margin-left: 450px;
     margin-bottom:20px;
     box-shadow: 1px 1px 1px $boxborder, -1px -1px 1px $boxborder;
     background-color: white;

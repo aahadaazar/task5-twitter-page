@@ -1,0 +1,254 @@
+body {
+  background-color: #ebe7e7;
+  padding-top: 250px;
+  font-family: 'Muli', sans-serif,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+
+.fly {
+  position: fixed;
+  right: 25px;
+  width: 100px;
+  height: 100px;
+  background-color: rgba(180, 179, 179, 0.479);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 100px; }
+  .fly img {
+    width: 50%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto; }
+
+.mainheader {
+  width: 100%;
+  background: url("img/background.jpg");
+  background-size: cover;
+  height: 230px;
+  position: fixed;
+  top: 0;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  z-index: 100; }
+  .mainheader .upper {
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    height: auto;
+    margin: 10px; }
+    .mainheader .upper img {
+      width: 28px;
+      height: 38px;
+      margin-right: 20px; }
+      .mainheader .upper img:nth-child(2) {
+        width: 30px;
+        height: 33px;
+        padding-top: 2px;
+        margin-left: auto;
+        margin-right: auto; }
+      .mainheader .upper img:nth-child(3), .mainheader .upper img:nth-child(4), .mainheader .upper img:nth-child(5) {
+        width: 20px;
+        height: 25px;
+        padding-top: 7px;
+        margin-left: 2px;
+        margin-right: 10px; }
+  .mainheader .mid {
+    display: -webkit-flex;
+    display: flex;
+    margin-left: 120px;
+    margin-top: 10px; }
+    .mainheader .mid img {
+      width: 80px;
+      height: 80px;
+      border-radius: 60px; }
+    .mainheader .mid div {
+      margin-top: 14px;
+      margin-left: 20px;
+      color: white; }
+      .mainheader .mid div p {
+        margin: 0px;
+        margin-bottom: 5px; }
+      .mainheader .mid div h1 {
+        margin: 0px; }
+  .mainheader .lower {
+    display: -webkit-flex;
+    display: flex;
+    margin-left: 120px;
+    margin-top: 20px;
+    width: auto; }
+    .mainheader .lower .info {
+      color: white;
+      justify-content: space-around;
+      margin-left: 30px; }
+      .mainheader .lower .info p {
+        margin: 0px;
+        margin-bottom: 5px; }
+      .mainheader .lower .info h3 {
+        margin: auto; }
+    .mainheader .lower .buttons {
+      margin-left: 133px;
+      display: -webkit-flex;
+      display: flex;
+      justify-content: space-evenly;
+      margin-top: 15px;
+      width: 950px; }
+      .mainheader .lower .buttons button {
+        background: none;
+        color: white;
+        border: none;
+        padding-bottom: 8px;
+        border: none; }
+        .mainheader .lower .buttons button:hover {
+          box-shadow: inset 0px -4px 0px #76A9EA; }
+      .mainheader .lower .buttons img {
+        width: 30px;
+        height: 30px;
+        margin-right: 5px;
+        vertical-align: text-bottom; }
+
+.sidebar {
+  width: 380px;
+  background-color: white;
+  height: 530px;
+  position: fixed;
+  box-shadow: 0px 1px 3px #8d8a8a;
+  z-index: 2;
+  top: 225px;
+  padding: 20px; }
+  .sidebar .top {
+    display: flex;
+    justify-content: space-around; }
+    .sidebar .top h3 {
+      margin: 0px;
+      width: auto;
+      height: auto;
+      color: #8d8a8a; }
+    .sidebar .top p {
+      margin: 0px;
+      margin-top: auto;
+      width: auto;
+      height: auto;
+      color: #6b98d1;
+      font-weight: bolder; }
+  .sidebar .middle {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    height: auto;
+    font-size: 15px; }
+    .sidebar .middle div {
+      display: flex;
+      margin: auto;
+      margin-left: 10px; }
+    .sidebar .middle .profilepic {
+      width: 70px;
+      height: 70px;
+      border-radius: 60px;
+      border: 1px solid #d8d6d6;
+      margin-left: 5px; }
+    .sidebar .middle .addf {
+      width: 40px;
+      height: 40px;
+      padding-top: 18px; }
+  .sidebar hr {
+    width: 330px; }
+  .sidebar .gallery {
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column; }
+    .sidebar .gallery h3 {
+      margin-top: 5px;
+      margin-bottom: 2px; }
+    .sidebar .gallery .pic {
+      display: -webkit-flex;
+      display: flex;
+      flex-wrap: wrap;
+      width: 300px;
+      height: auto; }
+      .sidebar .gallery .pic img {
+        width: 80px;
+        height: 80px;
+        margin: auto;
+        margin-top: 5px;
+        border: 3px dotted grey; }
+
+.maincontent {
+  width: 900px;
+  height: auto;
+  margin-left: 500px;
+  margin-bottom: 20px;
+  box-shadow: 1px 1px 1px #8d8a8a, -1px -1px 1px #8d8a8a;
+  background-color: white;
+  padding: 2px;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px; }
+  .maincontent > h2 {
+    margin: 0;
+    padding: 20px;
+    border-bottom: 1px solid #bfbebe;
+    color: #8d8a8a; }
+  .maincontent .ftweet {
+    display: flex;
+    display: -webkit-flex;
+    padding: 10px;
+    width: 97.5%; }
+    .maincontent .ftweet > img {
+      width: 110px;
+      height: 110px;
+      border-radius: 200px; }
+    .maincontent .ftweet .info {
+      display: -webkit-flex;
+      display: flex;
+      justify-content: space-between;
+      width: 90%;
+      flex-direction: column; }
+      .maincontent .ftweet .info .upper {
+        display: -webkit-flex;
+        display: flex;
+        flex-direction: row;
+        margin-top: 20px; }
+        .maincontent .ftweet .info .upper h2, .maincontent .ftweet .info .upper p {
+          margin: 0px;
+          margin-left: 10px; }
+        .maincontent .ftweet .info .upper p {
+          padding-top: 5px; }
+        .maincontent .ftweet .info .upper .extra {
+          margin-left: auto;
+          padding-top: 10px;
+          padding-bottom: 10px;
+          display: -webkit-flex;
+          display: flex;
+          height: 15%;
+          width: 230px;
+          justify-content: space-around; }
+          .maincontent .ftweet .info .upper .extra > img {
+            width: 18px;
+            height: 18px;
+            vertical-align: middle; }
+      .maincontent .ftweet .info .lower {
+        margin: 0px; }
+        .maincontent .ftweet .info .lower p {
+          margin: 0px;
+          margin-bottom: 20px;
+          margin-left: 10px; }
+      .maincontent .ftweet .info .image {
+        width: auto;
+        margin: auto;
+        height: auto; }
+        .maincontent .ftweet .info .image img {
+          margin: 0px;
+          width: 500px;
+          height: auto; }
+      .maincontent .ftweet .info .video {
+        width: 700px;
+        height: 400px;
+        margin: auto; }
+        .maincontent .ftweet .info .video iframe {
+          width: 680px;
+          height: 390px; }
+
+/*# sourceMappingURL=main.css.map */
